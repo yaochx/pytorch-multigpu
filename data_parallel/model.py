@@ -115,5 +115,5 @@ class PyramidNet(nn.Module):
 
 def pyramidnet():
 	block = ResidualBlock
-	model = PyramidNet(num_layers=18, alpha=270, block=block, num_classes=10000)
+	model = PyramidNet(num_layers=18, alpha=270, block=block)
 	return model
